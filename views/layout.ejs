@@ -1,9 +1,13 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <title><%= title %></title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>It's <%= who %></title>
+    <%- scripts %>
+    <%- stylesheets %>
   </head>
   <body>
-    <% content %>
+    <section>
+      <%- body -%>
+    </section>
   </body>
 </html>
